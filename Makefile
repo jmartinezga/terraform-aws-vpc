@@ -33,7 +33,7 @@ precommit:
 	$(MAKE) clean
 
 infracost:
-	infracost breakdown --path ./examples/*/ --format html --out-file ./infracost.html
+	infracost breakdown --path ./examples/*/ --format table
 	$(MAKE) clean
 
 scan:
