@@ -39,6 +39,9 @@ infracost:
 scan:
 	terrascan scan -i terraform -t aws -d . --non-recursive
 
+install:
+	./install_dependencies.sh
+
 examples:
 	ln -s ../../provider.tf provider.tf
 	ln -s ../../common.tf common.tf
