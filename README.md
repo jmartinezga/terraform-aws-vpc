@@ -79,6 +79,7 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_vpc_arn"></a> [vpc\_arn](#output\_vpc\_arn) | VPC arn. |
+| <a name="output_vpc_cidr"></a> [vpc\_cidr](#output\_vpc\_cidr) | VPC CIDR |
 | <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | VPC Id. |
 | <a name="output_vpc_private_subnets_cidr"></a> [vpc\_private\_subnets\_cidr](#output\_vpc\_private\_subnets\_cidr) | VPC private subnets CIDR |
 | <a name="output_vpc_private_subnets_id"></a> [vpc\_private\_subnets\_id](#output\_vpc\_private\_subnets\_id) | VPC private subnets |
