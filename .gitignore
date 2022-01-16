@@ -5,6 +5,9 @@
 *.tfstate
 *.tfstate.*
 
+# tf_version file
+**/tf_version
+
 # .terraform.lock.hcl files
 **/.terraform.lock.hcl
 
