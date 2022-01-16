@@ -2,7 +2,7 @@
 
 mkdir tmp && cd tmp
 
-#https://github.com/gruntwork-io/terragrunt
+#https://github.com/hashicorp/terraform
 echo -e "\nInstall terraform"
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
