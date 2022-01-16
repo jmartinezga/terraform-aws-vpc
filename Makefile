@@ -55,3 +55,4 @@ clean:
 	find . -name ".infracost" -type d -print0 | xargs -0 /bin/rm -Rf
 	find . -name ".terraform" -type d -print0 | xargs -0 /bin/rm -Rf
 	find . -name ".terraform.*" -type f -print0 | xargs -0 /bin/rm -Rf
+	find . -name "tf_version" -type f -print0 | xargs -0 /bin/rm -Rf
