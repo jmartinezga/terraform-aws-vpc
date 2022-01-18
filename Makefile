@@ -28,8 +28,7 @@ docs:
 
 precommit:
 	pre-commit autoupdate
-	pre-commit run -a
-	git add .
+	pre-commit run -a ; git add .
 	$(MAKE) clean
 
 infracost:

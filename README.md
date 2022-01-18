@@ -78,11 +78,11 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_vpc_arn"></a> [vpc\_arn](#output\_vpc\_arn) | VPC arn. |
-| <a name="output_vpc_cidr"></a> [vpc\_cidr](#output\_vpc\_cidr) | VPC CIDR |
-| <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | VPC Id. |
-| <a name="output_vpc_private_subnets_cidr"></a> [vpc\_private\_subnets\_cidr](#output\_vpc\_private\_subnets\_cidr) | VPC private subnets CIDR |
-| <a name="output_vpc_private_subnets_id"></a> [vpc\_private\_subnets\_id](#output\_vpc\_private\_subnets\_id) | VPC private subnets |
-| <a name="output_vpc_prublic_subnets_cidr"></a> [vpc\_prublic\_subnets\_cidr](#output\_vpc\_prublic\_subnets\_cidr) | VPC public subnets CIDR |
-| <a name="output_vpc_public_subnets_id"></a> [vpc\_public\_subnets\_id](#output\_vpc\_public\_subnets\_id) | VPC public subnets |
+| <a name="output_arn"></a> [arn](#output\_arn) | VPC arn. |
+| <a name="output_cidr"></a> [cidr](#output\_cidr) | VPC CIDR |
+| <a name="output_id"></a> [id](#output\_id) | VPC Id. |
+| <a name="output_private_subnets_cidr"></a> [private\_subnets\_cidr](#output\_private\_subnets\_cidr) | VPC private subnets CIDR |
+| <a name="output_private_subnets_id"></a> [private\_subnets\_id](#output\_private\_subnets\_id) | VPC private subnets |
+| <a name="output_public_subnets_cidr"></a> [public\_subnets\_cidr](#output\_public\_subnets\_cidr) | VPC public subnets CIDR |
+| <a name="output_public_subnets_id"></a> [public\_subnets\_id](#output\_public\_subnets\_id) | VPC public subnets |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
