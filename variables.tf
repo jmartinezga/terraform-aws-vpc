@@ -36,7 +36,7 @@ variable "vpc_enable_dns_support" {
 variable "vpc_enable_dns_hostnames" {
   description = "(Optional) A boolean flag to enable/disable DNS hostnames in the VPC. Defaults false."
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "tags" {

@@ -30,7 +30,7 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 3.73.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 3.74.0 |
 
 ## Modules
 
@@ -69,7 +69,7 @@ No modules.
 | <a name="input_region"></a> [region](#input\_region) | (Required) AWS Region | `string` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | (Optional) Tags to assign to the resource. | `any` | `{}` | no |
 | <a name="input_vpc_cidr_block"></a> [vpc\_cidr\_block](#input\_vpc\_cidr\_block) | (Required) The IPv4 CIDR block for the VPC. | `string` | n/a | yes |
-| <a name="input_vpc_enable_dns_hostnames"></a> [vpc\_enable\_dns\_hostnames](#input\_vpc\_enable\_dns\_hostnames) | (Optional) A boolean flag to enable/disable DNS hostnames in the VPC. Defaults false. | `bool` | `false` | no |
+| <a name="input_vpc_enable_dns_hostnames"></a> [vpc\_enable\_dns\_hostnames](#input\_vpc\_enable\_dns\_hostnames) | (Optional) A boolean flag to enable/disable DNS hostnames in the VPC. Defaults false. | `bool` | `true` | no |
 | <a name="input_vpc_enable_dns_support"></a> [vpc\_enable\_dns\_support](#input\_vpc\_enable\_dns\_support) | (Optional) A boolean flag to enable/disable DNS support in the VPC. Defaults true. | `bool` | `true` | no |
 | <a name="input_vpc_instance_tenacy"></a> [vpc\_instance\_tenacy](#input\_vpc\_instance\_tenacy) | (Optional) A tenancy option for instances launched into the VPC. Defaults 'default'. | `string` | `"default"` | no |
 | <a name="input_vpc_name"></a> [vpc\_name](#input\_vpc\_name) | (Required) VPC name. | `string` | n/a | yes |
